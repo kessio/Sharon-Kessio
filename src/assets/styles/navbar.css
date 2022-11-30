@@ -1,0 +1,32 @@
+nav {
+    height: 80px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 3%;
+}
+
+.nav-item {
+    margin-left: 28px;
+    padding-bottom: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1F22;
+    text-decoration: UpperCase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    border-bottom: #5ECE7B solid 3px;
+    color: #5ECE7B;
+}
